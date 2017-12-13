@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+  font-family: sans-serif;
+}
+.login-logo img{
+  width: 60%;
+
+}
+.login-logo{
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.toast-notification{
+  z-index: 1051!important;
+}
+
+.toast-notification .success{
+  background-color: #4caf50!important;
+}
+
+.navbar-brand img{
+  height: 32px;
+
+}
+.navbar-brand:hover{
+  cursor: pointer;
+}
