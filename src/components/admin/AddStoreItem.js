@@ -33,7 +33,7 @@ class AddStoreItem extends Component {
         let quentity = ReactDOM.findDOMNode(this.refs.itemQuentity).value;
         let description = ReactDOM.findDOMNode(this.refs.itemDescription).value;
 
-        console.log(name, price, quentity, description);
+        console.log(name, price, quentity, description);  
     }
 
     render() {

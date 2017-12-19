@@ -37,18 +37,26 @@
   To create a production bundle, use `npm run build`.
 -->
     
-    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyABipnj3Qb-e_DvWj0nGztCtjIB3ltXVaE",
-        authDomain: "test-for-deploy.firebaseapp.com",
-        databaseURL: "https://test-for-deploy.firebaseio.com",
-        projectId: "test-for-deploy",
-        storageBucket: "test-for-deploy.appspot.com",
-        messagingSenderId: "106271433995"
-      };
-      firebase.initializeApp(config);
-    </script>
+    
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase-storage.js"></script>
+<!-- Leave out Storage -->
+<!-- <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-storage.js"></script> -->
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBLawn_98CDwzUY6CleUIKQZ4XElnb6yQs",
+      authDomain: "greeniclk.firebaseapp.com",
+      databaseURL: "https://greeniclk.firebaseio.com",
+      projectId: "greeniclk",
+      storageBucket: "greeniclk.appspot.com",
+      messagingSenderId: "662784904139"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 </html>

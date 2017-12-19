@@ -90,11 +90,32 @@ class LandingPage extends Component {
                 </Navbar>
                 
                 <div>
-                    <div id="theme" className="section text-center imageDiv" ref="themeDiv" style={{backgroundImage: 'url(/assets/images/picture7.jpg)'}}>
+                    {/*<div id="theme" className="section text-center imageDiv" ref="themeDiv" style={{backgroundImage: 'url(/assets/images/picture7.jpg)'}}>
                         <Col id="queto" xs={12} md={8} style={{backgroundColor: '#f5f5f5'}}>
                                 <h3 className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id commodo ex, vitae auctor massa.</h3>    
                         </Col>
-                    </div>
+                    </div>*/}
+
+                    <Carousel>
+                        <Carousel.Item>
+                          <img alt="900x500" src="/assets/images/picture7.jpg" />
+                          <Carousel.Caption className="queto">
+                            <h3 className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id commodo ex, vitae auctor massa.</h3>
+                          </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img alt="900x500" src="/assets/images/picture7.jpg" />
+                          <Carousel.Caption className="queto">
+                            <h3 className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id commodo ex, vitae auctor massa.</h3>
+                          </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img alt="900x500" src="/assets/images/picture7.jpg" />
+                          <Carousel.Caption className="queto">
+                            <h3 className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id commodo ex, vitae auctor massa.</h3>
+                          </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
                     
                     <div id="aboutUs" className="section text-center imageDiv" ref="aboutUsDiv" style={{backgroundColor: '#eeeeee'}}>
                         <h3 className="description">About Us</h3>

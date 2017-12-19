@@ -1,0 +1,29 @@
+#dropImage {
+	border-style: solid!important;
+	border-color: #dce4ec!important;
+}
+
+#dropText {
+	margin: 14px;
+	font-size: 15px!important;
+	color: #dce4ec!important;
+	font-family: inherit;
+}
+
+.box {
+	float: left;
+    width: 200px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    list-style-type: none;
+}
+
+.main {
+	float: left;
+    width: 100px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    list-style-type: none;
+}
